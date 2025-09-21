@@ -46,7 +46,7 @@ javac hello.java
 
 在参数里面多加一个 f 
 
-用于定义 MENIFEST 文件
+用于定义 MANIFEST 文件
 
 大概就是这样
 
