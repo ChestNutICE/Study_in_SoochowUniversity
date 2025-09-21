@@ -22,6 +22,8 @@ public class hello {
 }
 ```
 
+注：这个代码之后改了，因为要用两个类，我会在这个代码里面调用另外一个类
+
 先进入终端编译这个文件
 
 ```
@@ -48,5 +50,13 @@ javac hello.java
 
 用于定义 MANIFEST 文件
 
+也可以使用这个命令来指定有入口类的 java 文件
+
+```
+jar -cvfe hello.jar hello hello.class usehello.class
+```
+
 大概就是这样
+
+
 
